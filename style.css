@@ -1,0 +1,19 @@
+<style type="text/css"> /* Personaliza aplicando estilos*/
+nav{
+  background-color: dimgray;
+  }
+body{
+  background-color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: flex-start;
+}
+div{
+  color: white;
+}
+.name{
+  color: dimgray;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{color:goldenrod}
+.tech{color:blueviolet}
+</style>
