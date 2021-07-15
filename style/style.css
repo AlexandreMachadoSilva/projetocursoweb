@@ -1,3 +1,9 @@
+body{
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
+}
     nav{
         border-radius: 24px;
         background-color:rgb(61, 56, 56);
@@ -10,13 +16,7 @@
         background-color:greenyellow;
         text-decoration: none;
         
-    }
-    body{
-        background-color:black;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        color:white;
-    }
+    }   
     .sobre{text-align: justify;}
     .name{
         color: dimgray;
