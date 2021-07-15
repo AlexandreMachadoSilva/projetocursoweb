@@ -1,4 +1,15 @@
-    nav{ background-color:black;
+    nav{
+        border-radius: 24px;
+        background-color:rgb(61, 56, 56);
+        padding:16px;
+    }
+    nav a{
+        margin:20px;
+        padding: 8px;
+        border-radius: 4px;
+        background-color:greenyellow;
+        text-decoration: none;
+        
     }
     body{
         background-color:black;
