@@ -45,7 +45,10 @@ body{
         border:4px grey solid;
         border-radius:12px 4px 12px 4px;
     } 
-    
+    #container{
+        display:flex;
+        justify-content:space-around;
+    }
     h3{ color:goldenrod;}
     .tech{  color:blueviolet;
             text-align: justify;

@@ -1,0 +1,9 @@
+HTTP
+https://github.com/AlexandreMachadoSilva/projetocursoweb.git
+
+SSH
+git@github.com:AlexandreMachadoSilva/projetocursoweb.git
+
+
+GITHub CLI
+gh repo clone AlexandreMachadoSilva/projetocursoweb
