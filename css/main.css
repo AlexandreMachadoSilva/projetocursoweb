@@ -1,0 +1,120 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    padding: 0!important;
+}
+.menu-principal{
+    width: 100%;
+    background-color:rgb(15, 7, 66) ;
+    height: 60px;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 0px;
+    height: 60px;
+    width: 80%;
+    color: aqua;
+}
+.redes-sociais ul li{
+    margin-left: 20px;
+    display: inline-block; /*coloca as listas em linha*/
+}
+.redes-sociais ul{
+    float: right;
+}
+.redes-sociais{
+    width: 20%;
+    float:left;
+}
+.header-2{
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.menu-url{
+    border-bottom:3px solid #efefef ;
+    height: 60px;
+}
+.menu ul li{
+    padding-left: 0;
+    display: inline-block;
+    color: #8b8b8b;
+    margin: 5px;
+}
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul li:hover{
+    height: 30px;
+    border-bottom: 2px solid #00bac6;
+}
+.menu ul li a:hover{
+    color:#00bac6;
+}
+.menu{
+    width: 80%;
+    float: left;
+}
+.busca{
+    width: 20%;
+    float: right;
+    text-align: center;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.busca input{
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    margin-top: 8px;
+    height: 10px;
+    padding: 10px;
+    width: 190px;
+    border: 1px solid #8b8b8b;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    /*background-image: url(../img/anterior.png);*/
+    position: absolute;
+    top: 45%;
+    left: 200px;
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    /*background-image: url(../img/proximo.png);*/
+    position: absolute;
+    top: 45%;
+    right: 200px;
+}
+ul.slick-dots{
+    margin: 0 auto;
+    bottom: 35px;
+}
+.slider-principal{
+    width: 100%;
+}
