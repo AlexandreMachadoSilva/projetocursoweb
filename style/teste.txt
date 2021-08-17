@@ -1,2 +1,0 @@
-criando uma pasta no Github
-Create new file: ./nome da pasta/nomedoarquivo.externsão

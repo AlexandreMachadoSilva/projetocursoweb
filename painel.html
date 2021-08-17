@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Painel</title>
+  </head>
+  <body class="container-fluid row">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid row">
+          <div class="col-2">
+            <a class="navbar-brand">Menu</a>
+          </div>
+          <div class="col-8">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </div>
+          <div class="col-2">
+            <a class="navbar-brand">Dashboard</a>
+          </div>         
+        </div>
+    </nav>
+    <section class="bg-secondary col-2 border-4 border-end" style="min-height: 100vh;">
+        <ul class="list-group list-group-flush bg-secondary">
+            <a href="index.html" class="list-group-item list-group-item-action bg-secondary" aria-current="true">
+               Home
+            </a>
+            <a href="#" class="list-group-item list-group-item-action bg-secondary" aria-current="true">
+                Relatórios
+            </a>
+            <a href="#" class="list-group-item list-group-item-action bg-secondary" aria-current="true">
+                Vendas
+            </a>
+            <a href="#" class="list-group-item list-group-item-action bg-secondary" aria-current="true">
+                Usuários
+            </a>
+        </ul>
+    </section>
+    <main class="col-10">
+        <section>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Filtrar
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item active" href="#">Data</a></li>
+                  <li><a class="dropdown-item" href="#">Vendas</a></li>
+                </ul>
+              </div>
+        </section>
+        <section>
+            <div class="card text-center">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-muted">
+                  2 days ago
+                </div>
+            </div>
+
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Nome</th>
+                      <th scope="col">Cargo</th>
+                      <th scope="col">Salário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Desenvolvedor backend</td>
+                      <td>R$ 6.500,00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Desenvolvedor backend</td>
+                      <td>R$ 5.500,00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>Desenvolvedor frontend</td>
+                      <td>R$ 7.000,00</td>
+                    </tr>
+                  </tbody>
+            </table>
+        </section>
+    </main>
+
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
